@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.25  # ← CHANGE VERSION HERE
+        image: nginx:1.26  # ← CHANGE VERSION HERE
         ports:
         - containerPort: 80
